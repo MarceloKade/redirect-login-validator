@@ -5,11 +5,13 @@
 - [Redirect Login Validator](#redirect-login-validator)
   - [Presentation](#presentation)
   - [Objective](#objective)
+  - [Deploy](#deploy)
   - [Functionalities](#functionalities)
   - [Technologies](#technologies)
   - [What I Learned](#what-i-learned)
     - [CSS](#css)
     - [JavaScript](#javascript)
+  - [Status](#status)
 
 ### Presentation
 
@@ -19,6 +21,11 @@ Secure Login Validator is a JavaScript application for validating user login and
 
 The objective of this project is to practice web development skills and demonstrate the ability to create a functional login page. Learn more at: [What I learned](#what-i-learned)
 
+
+### Deploy
+
+- Link : <a href="https://redirect-login-validator.netlify.app/" target="_blank">Redirect Login Validator</a>
+
 ### Functionalities
 
 - Display placeholders in the username and password input fields when they are in focus
@@ -27,6 +34,8 @@ The objective of this project is to practice web development skills and demonstr
 - If the fields are empty, show an alert message and clear the fields
 - If the username and password are incorrect, show an alert message and clear the fields
 - If the username and password are correct, redirect the user to the home page.
+- Use the login and password 'admin' to access the admin page
+- Use the login and password 'usuario' to access the user page
 
 ### Technologies
 
@@ -51,3 +60,8 @@ The objective of this project is to practice web development skills and demonstr
 - I learned to use the addEventListener function along with the focus and blur events.
 - When the user clicks on the input field, I use the focus event to display a placeholder with explanatory text.
 - And when the user clicks on another part of the page, I use the blur event to make the placeholder disappear and the field becomes empty again.
+
+
+### Status
+
+- Completed: [![Netlify Status](https://api.netlify.com/api/v1/badges/5433c841-e738-419e-912f-d93faeac3678/deploy-status)](https://app.netlify.com/sites/redirect-login-validator/deploys)
